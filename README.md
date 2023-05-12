@@ -9,5 +9,5 @@ Product View.
 Order View.
 
 Product View:
-ProductID,ProductName,ProductCategory,Tasks Section.
+ProductID,ProductName,ProductCategory,RoductCompany,ProductCountry.
 
