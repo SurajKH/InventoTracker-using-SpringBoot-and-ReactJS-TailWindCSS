@@ -2,7 +2,7 @@
 InventoTracker is an Product and Order Mangement System which basically built using SpringBoot(for Backend) and ReactJS,TailWindCSS(For FrontEnd) and MySQL as Database.
 
 For Navigation (React-Router-Dom) is being Utilized to Switch between Different Views.
-Different Views:Products View,Orders View,Home View
+Different Views:Products View,Orders View,Home View,About Page View
 
 PostmanAPI for Testings of REST API EndPoints.
 
