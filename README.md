@@ -10,6 +10,4 @@ Incase of InventoTracker we basically tend to consider two different Views.
 
 Products View:
 
-
-![Uploading Screenshot 2023-05-12 at 7.05.42 PM.png…]()
-
+<img width="1438" alt="Screenshot 2023-05-12 at 7 05 42 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/14b432d4-ba01-482b-8c9e-ef81e287e59a">
