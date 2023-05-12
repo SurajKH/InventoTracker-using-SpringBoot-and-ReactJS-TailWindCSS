@@ -8,3 +8,4 @@ Incase of InventoTracker we basically tend to consider two different Views.
 Product View:
 ProductID,ProductName,ProductCategory,RoductCompany,ProductCountry.
 
+![Uploading Screenshot 2023-05-12 at 7.05.42 PM.png…]()
