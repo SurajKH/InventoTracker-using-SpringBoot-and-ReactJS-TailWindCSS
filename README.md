@@ -8,7 +8,7 @@ PostmanAPI for Testings of REST API EndPoints.
 
 Incase of InventoTracker we basically tend to consider two different Views.
 
-Add a New Products View:
+Add a New Products View:(Products Views defines the various attributes associated with the Product)
 
 <img width="1438" alt="Screenshot 2023-05-12 at 7 05 42 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/14b432d4-ba01-482b-8c9e-ef81e287e59a">
 
