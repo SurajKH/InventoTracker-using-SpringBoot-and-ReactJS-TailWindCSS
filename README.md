@@ -18,6 +18,8 @@ Products Table View:(Basically defines the Various Entries which are considered 
 
 Order View:
 
+<img width="1440" alt="Screenshot 2023-05-23 at 8 57 08 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/811a3e73-e00f-4d29-8a05-9e6435954654">
+
 
 
 Admin View:
