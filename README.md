@@ -29,7 +29,10 @@ We basically tend to consider the Error View when User tries to Access the Produ
 Tech Stack:
 
 Backend:SpringBoot
+
 Database:MySQL
+
 FrontEnd:ReactJS,TailWindCSS
+
 Testing:PostManAPI
 
