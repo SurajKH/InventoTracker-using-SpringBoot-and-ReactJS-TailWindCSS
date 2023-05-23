@@ -24,3 +24,12 @@ We tend to grant Access to the Product and Order View only for Users with Admin 
 Error View:
 
 We basically tend to consider the Error View when User tries to Access the Product and Admin View for Users without Admin Privileges.
+
+
+Tech Stack:
+
+Backend:SpringBoot
+Database:MySQL
+FrontEnd:ReactJS,TailWindCSS
+Testing:PostManAPI
+
