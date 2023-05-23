@@ -16,10 +16,14 @@ Products Table View:(Basically defines the Various Entries which are considered 
 
 <img width="888" alt="Screenshot 2023-05-12 at 7 13 51 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/4fd9a016-8988-4770-8cde-72d77b643f03">
 
+Order View:
+
+
 
 Admin View:
 
 We tend to grant Access to the Product and Order View only for Users with Admin Privileges.
+
 
 Error View:
 
