@@ -10,6 +10,9 @@ Incase of InventoTracker we basically tend to consider two different Views.
 
 About Us:
 
+<img width="906" alt="Screenshot 2023-05-24 at 10 02 17 AM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/3aa6d1b0-a0c0-4e9c-8110-ebd260df2e7f">
+
+
 
 
 Add a New Products View:(Products Views defines the various attributes associated with the relevant products)
