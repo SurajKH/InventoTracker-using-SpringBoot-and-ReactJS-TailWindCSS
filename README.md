@@ -52,10 +52,6 @@ Error View:
 
 We basically tend to consider the Error View when User tries to Access the Product and Admin View for Users without Admin Privileges.
 
-Product Statistics:
-
-
-
 Order Statistics:
 
 <img width="804" alt="Screenshot 2023-05-24 at 9 25 32 AM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/4c6a5b3b-1080-4833-b05f-526ab6f6682b">
