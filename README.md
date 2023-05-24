@@ -42,9 +42,9 @@ Tech Stack:
 
 Backend:SpringBoot
 
-Database:MySQL
+Database:MySQL(RDBMS)
 
 FrontEnd:ReactJS,TailWindCSS
 
-Testing:PostManAPI
+Testing of Rest API's:PostManAPI
 
