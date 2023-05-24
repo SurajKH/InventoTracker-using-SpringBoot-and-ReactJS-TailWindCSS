@@ -1,7 +1,8 @@
 import React,{useEffect, useState} from "react";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleInfo,faGlobeAmericas} from '@fortawesome/free-solid-svg-icons';
+import { faCircleInfo,faGlobeAmericas,faTruckFast,faTruckLoading,faEarthAsia,faEarthEurope} from '@fortawesome/free-solid-svg-icons';
+
 
 
 const DisplayOrders=()=>
@@ -31,7 +32,7 @@ const DisplayOrders=()=>
          <p style={{textAlign:"center",marginBottom:"12px",
         marginTop:"12px"}}
         
-        class='text-2xl'>Products from All Over the Globe
+        class='text-2xl'>Orders from All Over the Globe
         <FontAwesomeIcon icon={faGlobeAmericas} size="1x"/></p>
          <div className='container mx-auto justify-center'>
        <div className='py-4'>
@@ -40,7 +41,7 @@ const DisplayOrders=()=>
             productStore.size
         } */}
         <table  className="w-full text-md text-left text-gray-800 dark:text-gray-800 mx-auto border-solid border-2 shadow-zinc-700">
-        <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <thead className="text-md text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                 <th scope="col" class="px-6 py-3">Order ID</th>
                 <th scope="col" class="px-6 py-3">Order Category </th>
@@ -50,15 +51,17 @@ const DisplayOrders=()=>
             </tr>
         </thead>
         <tbody>
-            {
+        {
                 orderStore.map((order)=>(
                     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 padding:2px">
-                        <td  className="p-5">{order.orderID}</td>
+                        <td  className="p-5">{order.orderId}</td>
                         <td>{order.orderCategory}</td>
-                        <td>{order.orderStatus
-}</td>
-                        <td>{order.orderDate
-}</td>
+                        <td>{order.orderCountry}
+</td>
+                        <td
+                        >{order.orderStatus}
+                         </td>
+                        <td>{order.orderDate}</td>
                       
                     </tr>
                    
@@ -73,8 +76,8 @@ const DisplayOrders=()=>
         
         class='text-2xl'>Orders from APJ Region
         <FontAwesomeIcon icon={faGlobeAmericas} size="1x"/></p>
-        <table  className="w-full text-sm text-left text-gray-800 dark:text-gray-800 mx-auto border-solid border-2 shadow-zinc-700">
-        <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <table  className="w-full text-md text-left text-gray-800 dark:text-gray-800 mx-auto border-solid border-2 shadow-zinc-700">
+        <thead className="text-md text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                 <th scope="col" class="px-6 py-3">Order ID</th>
                 <th scope="col" class="px-6 py-3">Order Category</th>
@@ -87,12 +90,48 @@ const DisplayOrders=()=>
             {
                 orderStore.filter((order=>order.orderCountry=="Asia" ||order.orderCountry=="Pacific" || order.orderCountry=="Japan")).map((order)=>(
                     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 padding:2px">
-                        <td  className="p-5">Order ID:{order.orderID}</td>
+                        <td  className="p-5">{order.orderId}</td>
                         <td>{order.orderCategory}</td>
-                        <td>{order.orderCountry
-}</td>
-                        <td>{order.orderStatus
-}</td>
+                        <td>{order.orderCountry}
+</td>
+                        <td
+                        >{order.orderStatus} 
+                        </td>
+                        <td>{order.orderDate}</td>
+                      
+                    </tr>
+                   
+                ))
+            }
+        </tbody>
+        </table>
+
+        <p style={{textAlign:"center",marginBottom:"12px",
+        marginTop:"12px"}}
+        
+        class='text-2xl'>Orders from EMEA Region
+        <FontAwesomeIcon icon={faGlobeAmericas} size="1x"/></p>
+        <table  className="w-full text-md text-left text-gray-800 dark:text-gray-800 mx-auto border-solid border-2 shadow-zinc-700">
+        <thead className="text-md text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <th scope="col" class="px-6 py-3">Order ID</th>
+                <th scope="col" class="px-6 py-3">Order Category</th>
+                <th scope="col" class="px-6 py-3">Order Country</th>
+                <th scope="col" class="px-6 py-3">Order Status</th>
+                <th scope="col" class="px-6 py-3">Order Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {
+                orderStore.filter((order=>order.orderCountry=="Europe" ||order.orderCountry=="Middle East" || order.orderCountry=="Africa")).map((order)=>(
+                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 padding:2px">
+                        <td  className="p-5">{order.orderId}</td>
+                        <td>{order.orderCategory}</td>
+                        <td>{order.orderCountry}
+</td>
+                        <td
+                        >{order.orderStatus} 
+                        </td>
                         <td>{order.orderDate}</td>
                       
                     </tr>
@@ -252,8 +291,74 @@ const DisplayOrders=()=>
 
 
  */}
+ <h4 className='items-center text-center mb-12 mt-20'>Order Stats
+        <FontAwesomeIcon icon={faCircleInfo}
+        size="lg" style={{margin:"2px"}}/>
+       </h4>
+
+        <div class='grid  grid-flow-col  content-center md:ml-10'
+        >
+        <div class="max-w-sm rounded overflow-hidden shadow-lg shadow-zinc-700 m-2">
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">Shipped Category <FontAwesomeIcon icon={faTruckFast} size="2xl"/></div>
+    <p class="text-gray-700 text-base">
+      Total Orders Shipped Category:
+      {
+        orderStore.filter((order=>order.orderStatus=="Shipped")).length
+      }
+    </p>
+  </div>
+ 
+</div>
 
 
+<div class="max-w-sm rounded overflow-hidden shadow-lg shadow-zinc-700 m-2">
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">Dispatched Category <FontAwesomeIcon icon={faTruckLoading} /></div>
+    <p class="text-gray-900 text-1xl">
+      Total Orders from Dispatched Category:
+      {
+        orderStore.filter((order=>order.orderStatus=="Dispatched")).length
+      }
+    </p>
+  </div>
+
+  
+ 
+</div>
+</div>
+
+<div class='grid  grid-flow-col  content-center md:ml-10'
+        >
+        <div class="max-w-sm rounded overflow-hidden shadow-lg shadow-zinc-700 m-2">
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">APJ Region <FontAwesomeIcon icon={faEarthAsia} /></div>
+    <p class="text-gray-700 text-base">
+        Total Orders from APJ Region:
+      {
+        orderStore.filter((order=>order.orderCountry=="Asia" ||order.orderCountry=="Pacific" || order.orderCountry=="Japan")).length
+      }
+    </p>
+  </div>
+ 
+</div>
+
+
+<div class="max-w-sm rounded overflow-hidden shadow-lg shadow-zinc-700 m-2">
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">EMEA Region<FontAwesomeIcon icon={faEarthEurope} /></div>
+    <p class="text-gray-900 text-1xl">
+      Total Orders from EMEA Region:
+      {
+        orderStore.filter((order=>order.orderCountry=="Asia" ||order.orderCountry=="Pacific" || order.orderCountry=="Japan")).length
+      }
+    </p>
+  </div>
+
+  
+ 
+</div>
+</div>
  </div>
         </React.Fragment>
     )
