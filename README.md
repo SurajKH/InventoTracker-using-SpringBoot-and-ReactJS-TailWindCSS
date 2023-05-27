@@ -17,14 +17,9 @@ Add a New Products View:(Products Views defines the various attributes associate
 
 <img width="1205" alt="Screenshot 2023-05-27 at 5 49 28 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/d697620a-ba60-48fc-989a-fdb308a0ca76">
 
-
-
 Order View:
 
-<img width="1440" alt="Screenshot 2023-05-23 at 8 57 08 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/811a3e73-e00f-4d29-8a05-9e6435954654">
-
-
-
+<img width="1207" alt="Screenshot 2023-05-27 at 5 49 22 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/46aba08f-16c9-4a1c-a4dc-5f3f25be8e03">
 
 
 Admin View:
@@ -34,8 +29,6 @@ We tend to grant Access to the Product and Order View only for Users with Admin 
 
 <!-- <img width="1434" alt="Screenshot 2023-05-23 at 8 56 34 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/022a1b18-0c82-4b2d-99d9-c54a903ffb68"> -->
 <img width="1414" alt="Screenshot 2023-05-27 at 5 46 26 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/b4db41a4-6535-4be8-976f-b6d08b1d607c">
-
-
 
 
 Error View:
