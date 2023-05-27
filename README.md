@@ -10,7 +10,8 @@ Incase of InventoTracker we basically tend to consider two different Views.
 
 About Us:
 
-<img width="906" alt="Screenshot 2023-05-24 at 10 02 17 AM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/3aa6d1b0-a0c0-4e9c-8110-ebd260df2e7f">
+<img width="1246" alt="Screenshot 2023-05-27 at 5 49 44 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/72aca393-8c84-437e-83c6-a4d4f5db388e">
+
 
 
 
