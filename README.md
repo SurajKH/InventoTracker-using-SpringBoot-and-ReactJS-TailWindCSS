@@ -40,6 +40,7 @@ We basically tend to consider the Error View when User tries to Access the Produ
 
 Order Statistics:
 
+<img width="1422" alt="Screenshot 2023-05-27 at 5 49 17 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/972db5e0-fa0d-47dc-9a66-c06e77c86632">
 
 
 
