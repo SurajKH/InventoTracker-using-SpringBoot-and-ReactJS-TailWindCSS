@@ -36,8 +36,6 @@ We tend to grant Access to the Product and Order View only for Users with Admin 
 <img width="1434" alt="Screenshot 2023-05-23 at 8 56 34 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/022a1b18-0c82-4b2d-99d9-c54a903ffb68">
 
 
-
-
 Error View:
 
 <img width="1429" alt="Screenshot 2023-05-24 at 8 18 07 AM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/62797724-d74e-4639-b8f5-846e28751a43">
