@@ -13,7 +13,9 @@ About Us:
 <img width="1246" alt="Screenshot 2023-05-27 at 5 49 44 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/72aca393-8c84-437e-83c6-a4d4f5db388e">
 
 
-Add a New Products View:(Products Views defines the various attributes associated with the relevant products)
+Add a New Products View:
+
+(Products Views defines the various attributes associated with the relevant products)
 
 <img width="1205" alt="Screenshot 2023-05-27 at 5 49 28 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/d697620a-ba60-48fc-989a-fdb308a0ca76">
 
