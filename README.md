@@ -33,11 +33,13 @@ We tend to grant Access to the Product and Order View only for Users with Admin 
 
 Error View:
 
+We basically tend to consider the Error View when User tries to Access the Product and Admin View for Users without Admin Privileges.
+
+
 <img width="1434" alt="Screenshot 2023-05-27 at 5 56 16 PM" src="https://github.com/SurajKH/InventoTracker-using-SpringBoot-and-ReactJS-TailWindCSS/assets/90398336/fbce4eef-7148-49ce-a7d4-6a16b5aed768">
 
 
 
-We basically tend to consider the Error View when User tries to Access the Product and Admin View for Users without Admin Privileges.
 
 Order Statistics:
 
